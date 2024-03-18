@@ -43,12 +43,12 @@
             </thead>
             <tbody>
             {% for day in forecast.forecast.forecastday %} <tr>
-                <td>{{ day.date }}</td>
-                <td>{{ day.day.condition.text }}</td>
-                <td>{{ day.day.maxtemp_c }}</td>
-                <td>{{ day.day.mintemp_c }}</td>
-                <td>{{ day.day.avghumidity }}</td>
-                <td>{{ day.astro.moon_phase }}</td>
+                <td>{{day.date}}</td>
+                <td>{{day.day.condition.text}}</td>
+                <td>{{day.day.maxtemp_c}}</td>
+                <td>{{day.day.mintemp_c}}</td>
+                <td>{{day.day.avghumidity}}</td>
+                <td>{{day.astro.moon_phase}}</td>
             </tr>
             {% endfor %}
         </tbody>

@@ -10,8 +10,6 @@ from . requests import current_weather, forecast_weather
 
 
 # Create your views here.
-
-
 def home(request):
     '''
         accept and handle user input using forms.py in this case we created CityForm
